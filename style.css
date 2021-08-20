@@ -22,7 +22,7 @@ body {
   justify-content: center;
 }
 
-#buttonColor {
+.btn {
   background: none;
   outline: none;
   color: white;
@@ -39,16 +39,15 @@ body {
 /* citation aleatoir */
 .citationParant {
   width: 25%;
-  background-color: yellow;
+  background-color: rgba(71, 110, 97, 0.883);
   height: 300px;
   margin-top: 10%;
   margin-right: 10%;
+  text-align: center;
+  border-radius: 5px;
 }
 .citation {
-  background-color: rosybrown;
-  border: 2px solid red;
-  border-radius: 5px;
   width: 100%;
-  height: 100%;
+  height: 70%;
   text-align: center;
 }
